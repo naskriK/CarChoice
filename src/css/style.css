@@ -1,0 +1,50 @@
+/* lexend-deca-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/lexend-deca-v21-latin-regular.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* lexend-deca-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/lexend-deca-v21-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* big-shoulders-display-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/big-shoulders-display-v21-latin-regular.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* big-shoulders-display-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/big-shoulders-display-v21-latin-700.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  --primary-ff: "Lexend Deca", sans-serif;
+  --secondary-ff: "Big Shoulders Display", sans-serif;
+
+  --color-general: hsl(0, 0%, 95%);
+  --color-paragraph: hsla(0, 0%, 100%, 0.75);
+
+  --color-sedan: hsl(31, 77%, 52%);
+  --color-suv: hsl(184, 100%, 22%);
+  --color-luxury: hsl(179, 100%, 13%);
+}
